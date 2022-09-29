@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #00F23F,#00AB2D);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container{
+  background: #fff;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+  z-index: 3;
+}
+.container h2{
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.container input{
+  min-height: 50px;
+  width: 100px;
+  background: #DDDDDD;
+  text-align: center;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  left: 125px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container h3{
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  font-size: 17px;
+}
+.container h4{
+  position: absolute;
+  top: 166px;
+  left: 10px;
+}
+.container h5{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  font-size: 17px;
+}
+.container #btn{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #DDDDDD;
+  position: absolute;
+  top: 240px;
+  left: 75px;
+}
+.container #btn2{
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #DDDDDD;
+  position: absolute;
+  top: 240px;
+  left: 75px;
+  display: none;
+}
+.levels{
+  display: flex;
+  position: absolute;
+  top: 50px;
+  background: #FFFFFF;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.levels a{
+  text-decoration: none;
+  background: #DDDDDD;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+#a1{
+  border: 2px solid #000;
+}

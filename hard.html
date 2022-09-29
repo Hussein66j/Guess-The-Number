@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Guess The Number</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="hard.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>I'm thinking about number between <br><mark>1 - 1000</mark> can you guess it.</h2>
+    <input type="number" id="input" placeholder="NUM">
+    <br>
+    <button id="btn2">Play again</button>
+    <button id="btn">Go</button>
+    <br>
+    <h3 id="info">-</h3>
+    <h4>Number of guesses <span id="guesses">0</span></h4>
+    <h5>Guessed numbers <span id="guessed"></span></h4>
+  </div>
+  <div class="levels">
+  <a id="a1" href="easy.html">Easy</a>
+  <a id="a2" href="normal.html">Normal</a>
+  <a id="a3" href="#">Hard</a>
+  </div>
+  <script src="hard.js"></script>
+</body>
+</html>
